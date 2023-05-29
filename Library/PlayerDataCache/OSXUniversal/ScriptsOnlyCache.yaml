@@ -2,6 +2,9 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - NetworkManagerUI
+    - PlayerNetwork
+    Unity.Netcode.Components.dll:
+    - Unity.Netcode.Components.NetworkTransform
     Unity.Netcode.Runtime.dll:
     - Unity.Netcode.NetworkManager
     - Unity.Netcode.NetworkObject
@@ -148,7 +151,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 26896}
     - Class: 114
+      Script: {instanceID: 26994}
+    - Class: 114
       Script: {instanceID: 31744}
+    - Class: 114
+      Script: {instanceID: 33882}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1242,6 +1249,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: NetworkManagerUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerNetwork
   platform: 2
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

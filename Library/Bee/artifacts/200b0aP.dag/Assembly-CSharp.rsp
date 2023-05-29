@@ -328,6 +328,7 @@
 -r:"Library/Bee/artifacts/200b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/200b0aP.dag/UnityEngine.UI.ref.dll"
 "Assets/NetworkManagerUI.cs"
+"Assets/PlayerNetwork.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
