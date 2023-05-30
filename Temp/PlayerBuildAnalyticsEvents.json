@@ -3,121 +3,17 @@
     {
       "type": "playerBuildTimingData",
       "msg": {
-        "build_event_id": "397adadb278e44e658052f987ba64fe6",
-        "build_player": 17019,
-        "preprocess_player": 52,
-        "produce_player_script_assemblies": 8175,
-        "build_scripts_dlls": 4686,
-        "writing_asset_files": 104,
-        "postprocess_built_player": 2901,
+        "build_event_id": "b381fbef5650548dea7b3bc701902e44",
+        "build_player": 9942,
+        "preprocess_player": 22,
+        "produce_player_script_assemblies": 3024,
+        "build_scripts_dlls": 4515,
+        "writing_asset_files": 88,
+        "postprocess_built_player": 1343,
         "node_summary_table": [
           {
             "name": "Csc",
-            "duration": 243
-          },
-          {
-            "name": "Csc",
-            "duration": 369
-          },
-          {
-            "name": "Csc",
-            "duration": 404
-          },
-          {
-            "name": "Csc",
-            "duration": 306
-          },
-          {
-            "name": "Csc",
-            "duration": 295
-          },
-          {
-            "name": "Csc",
-            "duration": 318
-          },
-          {
-            "name": "Csc",
-            "duration": 385
-          },
-          {
-            "name": "Csc",
-            "duration": 720
-          },
-          {
-            "name": "Csc",
-            "duration": 460
-          },
-          {
-            "name": "Csc",
-            "duration": 405
-          },
-          {
-            "name": "Csc",
-            "duration": 504
-          },
-          {
-            "name": "Csc",
-            "duration": 258
-          },
-          {
-            "name": "Csc",
-            "duration": 356
-          },
-          {
-            "name": "Csc",
-            "duration": 271
-          },
-          {
-            "name": "Csc",
-            "duration": 620
-          },
-          {
-            "name": "Csc",
-            "duration": 427
-          },
-          {
-            "name": "Csc",
-            "duration": 412
-          },
-          {
-            "name": "Csc",
-            "duration": 547
-          },
-          {
-            "name": "Csc",
-            "duration": 411
-          },
-          {
-            "name": "Csc",
-            "duration": 492
-          },
-          {
-            "name": "Csc",
-            "duration": 572
-          },
-          {
-            "name": "Csc",
-            "duration": 311
-          },
-          {
-            "name": "Csc",
-            "duration": 394
-          },
-          {
-            "name": "Csc",
-            "duration": 406
-          },
-          {
-            "name": "Csc",
-            "duration": 569
-          },
-          {
-            "name": "Csc",
-            "duration": 295
-          },
-          {
-            "name": "Csc",
-            "duration": 363
+            "duration": 354
           }
         ]
       },
