@@ -1,6 +1,9 @@
 Library/Bee/artifacts/mvdfrm/Unity.Burst.ref.dll_C561F524567146DF.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Collections.ref.dll_F70CE7A881848EE4.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Mathematics.ref.dll_7A8F4EB327600765.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Multiplayer.Samples.Utilities.ClientAuthority.ref.dll_58A50245247CAB3A.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Multiplayer.Samples.Utilities.RNSM.ref.dll_3B53254A468398EA.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Multiplayer.Samples.Utilities.ref.dll_A380130A725845F0.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Multiplayer.Tools.Adapters.ref.dll_7E1485B983979952.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Multiplayer.Tools.Common.ref.dll_DFA57C02BDE80E69.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Multiplayer.Tools.Initialization.ref.dll_6378C13B3BE49AEE.mvfrm
@@ -18,8 +21,15 @@ Library/Bee/artifacts/mvdfrm/Unity.Netcode.Components.ref.dll_0A54FDAA65C0B8B1.m
 Library/Bee/artifacts/mvdfrm/Unity.Netcode.Runtime.ref.dll_96863065F851D553.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Networking.Transport.ref.dll_B78532E4271468A6.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Profiling.Core.ref.dll_DCBF82AAA240596E.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Services.Authentication.ref.dll_D2D1412D678DE737.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Analytics.ref.dll_162A2A0052BC5016.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Environments.ref.dll_F61DE9FC9E518746.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Services.Core.ref.dll_A9B35628DE7A4E0E.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Services.QoS.ref.dll_A90A48856A67237C.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Services.Relay.ref.dll_C8ED3AB503CA5908.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.ref.dll_16439CD557D572F2.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_C47AD39001E77048.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Tutorials.Core.ref.dll_D2CC137CDB30C69F.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.ref.dll_9F10ABE6F543486D.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.ref.dll_E6218C3D774CBD1C.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.ref.dll_807C63F7C24D48D9.mvfrm

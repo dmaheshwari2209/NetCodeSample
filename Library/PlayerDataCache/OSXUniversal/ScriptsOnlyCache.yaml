@@ -3,8 +3,8 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - NetworkManagerUI
     - PlayerNetwork
-    Unity.Netcode.Components.dll:
-    - Unity.Netcode.Components.NetworkTransform
+    Unity.Multiplayer.Samples.Utilities.ClientAuthority.dll:
+    - Unity.Multiplayer.Samples.Utilities.ClientAuthority.ClientNetworkTransform
     Unity.Netcode.Runtime.dll:
     - Unity.Netcode.NetworkManager
     - Unity.Netcode.NetworkObject
@@ -151,11 +151,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 26896}
     - Class: 114
-      Script: {instanceID: 26994}
-    - Class: 114
       Script: {instanceID: 31744}
     - Class: 114
       Script: {instanceID: 33882}
+    - Class: 114
+      Script: {instanceID: 41236}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1255,6 +1255,102 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerNetwork
+  - hash:
+      serializedVersion: 2
+      Hash: d60b5378035cdad2fef282d3fef09069
+    assemblyName: Unity.Multiplayer.Samples.Utilities.ClientAuthority.dll
+    namespaceName: Unity.Multiplayer.Samples.Utilities.ClientAuthority
+    className: ClientNetworkAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 06db196e555cff6fd0a9fb72128922e0
+    assemblyName: Unity.Multiplayer.Samples.Utilities.dll
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: NetworkObjectSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 42d7aff6888312107c6d46ecd572cdf6
+    assemblyName: Unity.Multiplayer.Samples.Utilities.dll
+    namespaceName: 
+    className: EditorChildSceneLoader
+  - hash:
+      serializedVersion: 2
+      Hash: c2eeb815010528110a57bbb518bc9236
+    assemblyName: Unity.Multiplayer.Samples.Utilities.dll
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: SceneLoaderWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: 082126d032cc22804037f26289a7068a
+    assemblyName: Unity.Tutorials.Core.dll
+    namespaceName: Unity.Tutorials.Core
+    className: SceneObjectGuid
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.Utilities.dll
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: DontDestroyOnLoad
+  - hash:
+      serializedVersion: 2
+      Hash: 49818a37623a3aeb7e0d8ea9c6a0142b
+    assemblyName: Unity.Multiplayer.Samples.Utilities.ClientAuthority.dll
+    namespaceName: Unity.Multiplayer.Samples.Utilities.ClientAuthority
+    className: ClientNetworkTransform
+  - hash:
+      serializedVersion: 2
+      Hash: defe64e124c36891abc19839aad18446
+    assemblyName: Unity.Multiplayer.Samples.Utilities.RNSM.dll
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: NetStatsMonitorCustomization
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.Utilities.dll
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: NetcodeHooks
+  - hash:
+      serializedVersion: 2
+      Hash: 8341ee4c7fc53a6b12ea7cb601af298b
+    assemblyName: Unity.Multiplayer.Samples.Utilities.dll
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: ServerAdditiveSceneLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Services.Relay.dll
+    namespaceName: Unity.Services.Relay.Scheduler
+    className: TaskSchedulerWebGL
+  - hash:
+      serializedVersion: 2
+      Hash: 9da5ca45e49468859e21c4cccb159a9b
+    assemblyName: Unity.Multiplayer.Samples.Utilities.dll
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: ClientLoadingScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 41908f0a5055f31b72d97a24d3b8347a
+    assemblyName: Unity.Multiplayer.Samples.Utilities.RNSM.dll
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: AutoHide
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Services.Relay.dll
+    namespaceName: Unity.Services.Relay.Scheduler
+    className: TaskSchedulerThreaded
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.Utilities.dll
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: NetworkedLoadingProgressTracker
+  - hash:
+      serializedVersion: 2
+      Hash: d9da01af7d6cc7e66286d7234ff79047
+    assemblyName: Unity.Multiplayer.Samples.Utilities.dll
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: LoadingProgressManager
   platform: 2
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
