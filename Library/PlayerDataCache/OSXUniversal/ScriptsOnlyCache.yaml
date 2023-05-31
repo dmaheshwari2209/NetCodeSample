@@ -33,7 +33,6 @@ ScriptsOnlyBuild:
   serializedClasses:
     Unity.Netcode.Runtime:
     - Unity.Netcode.NetworkConfig
-    - Unity.Netcode.NetworkPrefab
     - Unity.Netcode.NetworkPrefabs
     - Unity.Netcode.Transports.UTP.UnityTransport/ConnectionAddressData
     - Unity.Netcode.Transports.UTP.UnityTransport/SimulatorParameters

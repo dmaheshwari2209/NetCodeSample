@@ -43,6 +43,7 @@ public class PlayerNetwork : NetworkBehaviour
             customData.Value = new CustomData {_int = Random.Range(0, 10), _bool = true, message = "Randomizing"};
 
             TestServerRpc("sample test server rpc message", new ServerRpcParams());
+            TestClientRpc(new ClientRpcParams {Send = new ClientRpcSendParams { TargetClientIds = new List<ulong> {1}}});
         }
 
         Vector3 moveDir = new Vector3(0,0,0);
@@ -62,5 +63,9 @@ public class PlayerNetwork : NetworkBehaviour
         Debug.Log("TestServerRpc " + OwnerClientId + "; " + serverRpcParams.Receive.SenderClientId);
     }
 
-    // private void 
+    // This method is to propagate the changes in the client machines and can only be accessed from server side
+    [ClientRpc]
+    private void TestClientRpc(ClientRpcParams clientRpcParams) {
+        Debug.Log("TestClientRpc ");
+    }
 }
