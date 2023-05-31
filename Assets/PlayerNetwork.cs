@@ -6,6 +6,10 @@ using Unity.Netcode;
 
 public class PlayerNetwork : NetworkBehaviour
 {
+    [SerializeField] private Transform spawnedObjectPrefab;
+
+    private Transform spawnedObjectTransform;
+
     private NetworkVariable<int> randomNumber = new NetworkVariable<int>(1, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Owner);
 
     private NetworkVariable<CustomData> customData = new NetworkVariable<CustomData>(new CustomData{_int = 1, _bool = false, message = "Starting"}, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Owner);
@@ -39,11 +43,19 @@ public class PlayerNetwork : NetworkBehaviour
         if(!IsOwner) return;
 
         if(Input.GetKeyDown(KeyCode.T)){
+            spawnedObjectTransform = Instantiate(spawnedObjectPrefab);
+            spawnedObjectTransform.GetComponent<NetworkObject>().Spawn(true);
+
             randomNumber.Value = Random.Range(0, 100);
             customData.Value = new CustomData {_int = Random.Range(0, 10), _bool = true, message = "Randomizing"};
 
             TestServerRpc("sample test server rpc message", new ServerRpcParams());
             TestClientRpc(new ClientRpcParams {Send = new ClientRpcSendParams { TargetClientIds = new List<ulong> {1}}});
+        }
+
+        if(Input.GetKeyDown(KeyCode.Y)){
+            // spawnedObjectTransform.GetComponent<NetworkObject>().Despawn(true);
+            Destroy(spawnedObjectTransform.gameObject);
         }
 
         Vector3 moveDir = new Vector3(0,0,0);
