@@ -15,6 +15,7 @@ public class PlayerNetwork : NetworkBehaviour
         public bool _bool;
         public FixedString128Bytes message;
 
+        // Serializing the custom struct
         public void NetworkSerialize<T>(BufferSerializer<T> serializer) where T : IReaderWriter {
             serializer.SerializeValue(ref _int);
             serializer.SerializeValue(ref _bool);
@@ -34,11 +35,14 @@ public class PlayerNetwork : NetworkBehaviour
 
     void Update()
     {
+        // Giving control only for your player
         if(!IsOwner) return;
 
         if(Input.GetKeyDown(KeyCode.T)){
             randomNumber.Value = Random.Range(0, 100);
             customData.Value = new CustomData {_int = Random.Range(0, 10), _bool = true, message = "Randomizing"};
+
+            TestServerRpc("sample test server rpc message", new ServerRpcParams());
         }
 
         Vector3 moveDir = new Vector3(0,0,0);
@@ -51,4 +55,12 @@ public class PlayerNetwork : NetworkBehaviour
         float moveSpeed = 25f;
         transform.position += moveDir*moveSpeed*Time.deltaTime;
     }
+
+    // This menthod will only run on host machine, even if triggered from the client machine, the Id would be the client from where the triggered was started
+    [ServerRpc]
+    private void TestServerRpc(string message, ServerRpcParams serverRpcParams) {
+        Debug.Log("TestServerRpc " + OwnerClientId + "; " + serverRpcParams.Receive.SenderClientId);
+    }
+
+    // private void 
 }
